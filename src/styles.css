@@ -1,0 +1,115 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.hangman {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  stroke: black;
+  stroke-width: 2;
+  fill: none;
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
+}
+
+
+
+.cls-1,
+.cls-2 {
+  fill: none;
+  stroke: #754c24;
+  stroke-miterlimit: 10;
+}
+
+.cls-1 {
+  stroke-width: 2px;
+}
+
+.clue {
+  padding-top: 5px;
+  font-size: 0.7em;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.currentLetters {
+  display: flex;
+  justify-content: center;
+
+  margin: 5px;
+  padding: 5px;
+}
+
+.letter {
+  background: lightgrey;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin: 2px 8px;
+  padding: 7px;
+}
+
+.guessed_letters {
+  background: #e9e9e9;
+  min-height: 50px;
+}
+
+.guessed_letter_display {
+ padding: 4px;
+ letter-spacing: 1ch;
+ font-size: 1.25em;
+ font-style: italic;
+ min-height: 15px;
+ 
+}
+
+input {
+  margin: 2px;
+  padding:3px 12px;
+  font-size: 1.25em;
+}
+
+button {
+  margin: 6px;
+  padding:6px 20px;
+  font-weight: 700;
+  font-size: 1.25em;
+  color: white;
+  background-color: #35c2ee;
+  border-radius: 3px;
+  border: none;
+}
+
+button:hover {
+  color: white;
+  background-color: #3f19fb;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.card-modal {
+    margin: 30vh auto;
+    padding: 10px 0;
+    max-width: 280px;
+    max-height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
